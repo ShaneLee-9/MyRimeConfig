@@ -1,0 +1,31 @@
+# Rime dictionary: jiu
+# encoding: utf-8
+# 个人扩展的词库
+
+---
+name: tiger.extended
+version: "0.0.1"
+sort: by_weight
+import_tables:
+  - tiger
+  
+columns:
+  - text
+  - code
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 99]
+      formula: "AaBaCaZa"
+...
+
+李学文	ekvw
+咪咕	dpdc
+张琪	bpnz
+南阳锦城晶品	ntzd
+是什么意思	ojtq
+数智人	pojr
+瑶光	nymg

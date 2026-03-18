@@ -1,0 +1,49 @@
+皮肤背景: &皮肤背景 0x131824
+皮肤文字: &皮肤文字 0xc9cdd4
+皮肤选中背景: &皮肤选中背景 0xebb10d
+皮肤选中文字: &皮肤选中文字 0x131824
+字体: &字体 "汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, MiSansL3, 新雅黑"
+
+patch:
+  preset_color_schemes:
+    moreless:
+      name: 极简
+      author: 九
+      color_format: rgba
+      back_color: *皮肤背景
+      border_color: *皮肤选中背景
+      text_color: *皮肤文字
+      comment_text_color: *皮肤文字
+      label_color: *皮肤文字
+      hilited_candidate_text_color: *皮肤选中文字
+      hilited_candidate_back_color: *皮肤选中背景
+      hilited_label_color: *皮肤选中文字
+      hilited_comment_text_color: *皮肤选中文字
+  app_options/+:
+    windowsterminal.exe:
+      ascii_mode: true
+  style:
+    color_scheme: moreless
+    inline_preedit: true
+    click_to_capture: true
+    fullscreen: true
+    font_face: *字体
+    label_font_face: *字体
+    comment_font_face: *字体
+    font_point: 60
+    label_font_point: 36
+    comment_font_point: 60
+    layout:
+      align_type: center
+      min_width: 0
+      min_height: 0
+      type: horizontal
+      border_width: 6
+      corner_radius: 12
+      margin_x: 18 # 字号的0.3
+      margin_y: 12 # 字号的0.2
+      candidate_spacing: 0
+      hilite_spacing: 4
+      hilite_padding_x: 10
+      hilite_padding_y: 5
+      hilited_corner_radius: 5
