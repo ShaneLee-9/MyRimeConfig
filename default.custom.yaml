@@ -6,7 +6,10 @@
 #   rime_version: 1.7.3
 patch:
   schema_list:
+<<<<<<< HEAD
     - {schema: xmjd6}
+=======
+>>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
     - {schema: tiger}
     - {schema: tigress}
     - {schema: PY_c}

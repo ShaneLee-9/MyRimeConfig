@@ -1,6 +1,10 @@
 
 name: tiger
+<<<<<<< HEAD
 version: "2026.03.01"
+=======
+version: "2025.11.12"
+>>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -11116,8 +11120,11 @@ columns:
 坉	gfsc	257
 坋	ghpd	257
 坒	vvgt	257
+<<<<<<< HEAD
 坖	mpg	257
 坖	mpgt	257
+=======
+>>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 坢	ghu	257
 坢	ghus	257
 坥	gfq	257
@@ -13185,7 +13192,10 @@ columns:
 襫	tmf	257
 襫	tmfu	257
 襶	tnph	257
+<<<<<<< HEAD
 覅	vbne	257
+=======
+>>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 覇	vtv	257
 覇	vtvy	257
 觃	ehi	257
@@ -17529,6 +17539,11 @@ columns:
 坓	qgt	0
 坔	kgt	0
 坕	ygt	0
+<<<<<<< HEAD
+=======
+坖	mpg	0
+坖	mpgt	0
+>>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 坘	gfb	0
 坘	gfbj	0
 坙	fogt	0
@@ -25856,6 +25871,10 @@ columns:
 覂	vtri	0
 覄	vjm	0
 覄	vjmq	0
+<<<<<<< HEAD
+=======
+覅	vbne	0
+>>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 覈	vul	0
 覈	vulh	0
 覉	vtmz	0
