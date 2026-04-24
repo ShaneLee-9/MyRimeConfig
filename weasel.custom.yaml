@@ -1,83 +1,93 @@
-<<<<<<< HEAD
 皮肤背景: &皮肤背景 0x131824
 皮肤文字: &皮肤文字 0xc9cdd4
 皮肤选中背景: &皮肤选中背景 0xebb10d
 皮肤选中文字: &皮肤选中文字 0x131824
-字体: &字体 "汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, MiSansL3, 新雅黑"
-=======
-皮肤背景: &皮肤背景 0xFFFFFF
-皮肤文字: &皮肤文字 0x030117
-皮肤选中背景: &皮肤选中背景 0x2D2D7A
-皮肤选中文字: &皮肤选中文字 0xFAFAFA
-字体: &字体 "MiSans:Light, MiSans TC, MiSansL3, 新雅黑"
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
+字体: &字体 "霞鹜新致宋 屏幕阅读版 补全, TW-Kai, 汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, MiSansL3, 新雅黑"
 
 patch:
   preset_color_schemes:
-    moreless:
-      name: 极简
-      author: 九
-      color_format: rgba
-<<<<<<< HEAD
-      back_color: *皮肤背景
-      border_color: *皮肤选中背景
-      text_color: *皮肤文字
-      comment_text_color: *皮肤文字
-      label_color: *皮肤文字
-      hilited_candidate_text_color: *皮肤选中文字
-      hilited_candidate_back_color: *皮肤选中背景
-      hilited_label_color: *皮肤选中文字
-      hilited_comment_text_color: *皮肤选中文字
-=======
-      back_color: 0xFFFFFF
-      border_color: 0xD8D8D8
-      text_color: 0x424242
-      comment_text_color: 0x707071
-      label_color: 0x707071
-      hilited_candidate_text_color: 0x326FE6
-      hilited_candidate_back_color: 0xE6F0FD
-      hilited_label_color: 0x326FE6
-      hilited_comment_text_color: 0xA2BEF3
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
+    🎹:
+      name: 🎹
+      author: Novem
+      back_color: 0x3B3A3B # 背景色
+      border_color: 0xb6b4b5
+      text_color: 0xefedee # 编码文字色
+      label_color: 0xefedee # 序号颜色
+  #    hilited_back_color: 0xfaf9fa
+  #    hilited_text_color: 0x3b3a3b
+  #    hilited_label_color: 0xefedee
+      # candidate_back_color: # 其他候选项背景色
+      hilited_candidate_back_color: 0xfaf9fa # 选中项背景色
+      hilited_candidate_text_color: 0x3b3a3b # 选中项文字颜色
+      hilited_label_color: 0x3b3a3b # 选中项序号颜色
+      shadow_color: 0x33000000 # 带透明度的阴影：0xAABBGGRR
+
+  style:
+    color_scheme: 🎹
+    capture_type: none
+    color_font: true
+    font_point: 30
+    label_font_point: 20
+    display_tray_icon: false #显示小狼毫图标
+    font_face: "华文黑体, 苹方-港, Segoe UI Emoji, Noto Color Emoji, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
+    fullscreen: false
+    label_format: "%s."
+    mark_text: ""
+    horizontal: true
+    click_to_capture: true
+    
+    layout:
+      border_width: 0
+      border_height: 0
+      corner_radius: 15
+      shadow_radius: 8
+      shadow_offset_x: 2
+      shadow_offset_y: 2
+      hilited_corner_radius: 9
+      hilite_padding: 10        #高亮选项的padding
+      margin_x: 8              #整个候选框的padding
+      margin_y: 8              #整个候选框的padding
+
+# patch:
+  # preset_color_schemes:
+  #   moreless:
+  #     name: 极简
+  #     author: 九
+  #     color_format: rgba
+  #     back_color: *皮肤背景
+  #     border_color: *皮肤选中背景
+  #     text_color: *皮肤文字
+  #     comment_text_color: *皮肤文字
+  #     label_color: *皮肤文字
+  #     hilited_candidate_text_color: *皮肤选中文字
+  #     hilited_candidate_back_color: *皮肤选中背景
+  #     hilited_label_color: *皮肤选中文字
+  #     hilited_comment_text_color: *皮肤选中文字
   app_options/+:
     windowsterminal.exe:
       ascii_mode: true
-  style:
-    color_scheme: moreless
-    inline_preedit: true
-    click_to_capture: true
-    fullscreen: true
-    font_face: *字体
-    label_font_face: *字体
-    comment_font_face: *字体
-<<<<<<< HEAD
-    font_point: 60
-    label_font_point: 36
-    comment_font_point: 60
-=======
-    font_point: 18
-    label_font_point: 14
-    comment_font_point: 18
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
-    layout:
-      align_type: center
-      min_width: 0
-      min_height: 0
-<<<<<<< HEAD
-      type: horizontal
-      border_width: 6
-      corner_radius: 12
-      margin_x: 18 # 字号的0.3
-      margin_y: 12 # 字号的0.2
-=======
-      type: vertical
-      border_width: 1
-      corner_radius: 8
-      margin_x: 14
-      margin_y: 8
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
-      candidate_spacing: 0
-      hilite_spacing: 4
-      hilite_padding_x: 10
-      hilite_padding_y: 5
-      hilited_corner_radius: 5
+  # style/+:
+  #   color_scheme: lost_temple
+    # inline_preedit: true
+  #   click_to_capture: true
+  #   fullscreen: true
+    # font_face: *字体
+    # label_font_face: *字体
+    # comment_font_face: *字体
+    # font_point: 18
+    # label_font_point: 18
+    # comment_font_point: 18
+  #   layout:
+  #     align_type: center
+  #     min_width: 0
+  #     min_height: 0
+  #     type: horizontal
+  #     border_width: 6
+  #     corner_radius: 12
+  #     margin_x: 18 # 字号的0.3
+  #     margin_y: 12 # 字号的0.2
+  #     candidate_spacing: 0
+  #     hilite_spacing: 4
+  #     hilite_padding_x: 10
+  #     hilite_padding_y: 5
+  #     hilited_corner_radius: 5

@@ -6,22 +6,33 @@
 #   rime_version: 1.7.3
 patch:
   schema_list:
-<<<<<<< HEAD
-    - {schema: xmjd6}
-=======
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
+    - schema: rime_ice               # 雾凇拼音（全拼）
     - {schema: tiger}
     - {schema: tigress}
     - {schema: PY_c}
   "switcher/hotkeys":  # 将默认的 F4热键 更改为ctrl+`
     - "Control+grave"
+    - Control+Shift+grave
     - "Control+F8"
-    # - "F4" 
+    - "F4"
+
+    # 下面的都来自雾凇，以后需要再打开，属于switcher下
+    # 开关记忆（方案中的 switches），从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
+    # 部分前端（如小企鹅），实现了全局状态，切换后在任何焦点都会记住；
+    # 部分前端（如鼠须管），仅在当前会话中记住，每个App或一个App的不同输入框都会单独管理；
+    # 部分前端（如小狼毫），仅实现了中英全局状态，其他开关仍然是单独管理。
+#    save_options:
+#      - ascii_punct
+#      - traditionalization
+#      - emoji
+#      - full_shape
+#      - search_single_char
+
     # 如果想用F4来切换，把上一行，行首的#删去
 #左Shift键输入字符直接切换为英文上屏，输入状态变为英文。
   ascii_composer/good_old_caps_lock: true
   ascii_composer/switch_key:
-    Caps_Lock: clear # 转大写并清屏 
+    Caps_Lock: clear # 转大写并清屏
     #  如果要把 Caps Lock 设为只改变字母的大小写而不做中西文切换，可将 Caps_Lock 对应的切换方式设为 noop
     Control_L: noop # 使其主动失效
     Control_R: noop

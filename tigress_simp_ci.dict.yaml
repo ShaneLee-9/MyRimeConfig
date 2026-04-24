@@ -1,9 +1,5 @@
 name: tigress_simp_ci
-<<<<<<< HEAD
 version: "2026.03.01"
-=======
-version: "2025.11.12"
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1531,11 +1527,8 @@ encoder:
 阿汤哥	117	tkz
 韦东奕	117	grz
 安卓猫	117	wym
-<<<<<<< HEAD
 与田铃	117	fqz
 斩杀线	117	ybi
-=======
->>>>>>> 4b103591a38d849800e8e5610de60e506a70002f
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
