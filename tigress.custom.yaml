@@ -3,13 +3,13 @@
 patch:
   translator/dictionary: tigress.extended #引入增补自定词典，这个不要改动
   #translator/enable_completion: true # 编码提示，默认关闭，删掉行首的#号，即可开启
-  speller/auto_select_pattern: ^;\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
+  #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
   #speller/alphabet: "['zyxwvutsrqponmlkjihgfedcba]" # 取消分号引导的快符功能（分号不作码元），删掉行首#号即可生效
   #style/mark_text: " " #编号前标志，这里是空格，可在引号里可以自己加东西替换，如 "😅"
   #style/layout/border_width: 2 #边框宽度，默认是0
   #style/layout/border_height: 2 #边框高度，默认是0
 
-  menu/page_size: 5 # 自定义候选个数，可修改。若要改成5个，行首加上#号注释即可（Rime默认就是5个）
+  menu/page_size: 9 # 自定义候选个数，可修改。若要改成5个，行首加上#号注释即可（Rime默认就是5个）
   #style/horizontal: true # 默认是false竖排显示，删掉行首的#号，可横排显示（横排建议把上面这行注释掉）
   #style/layout/candidate_spacing: 17 #候选框改为横排后,增加 候选与候选 的间距
   #style/layout/hilite_spacing: 8  #候选框改为横排后,增加 标号与候选 的间距
@@ -29,8 +29,8 @@ patch:
   #menu/alternative_select_labels: [ Ⓐ,Ⓑ,Ⓒ,Ⓓ,Ⓔ,Ⓕ,Ⓖ,Ⓗ,Ⓘ,Ⓙ ]
   #menu/alternative_select_labels: [ ⓐ,ⓑ,ⓒ,ⓓ,ⓔ,ⓕ,ⓖ,ⓗ,ⓘ,ⓙ ]
 
-  #style/preedit_type: preview # 嵌入首选项内容(字词)。有4个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项 | preview_all 嵌入全部内容 
-  #style/layout/margin_y : -1 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
+  # style/preedit_type: preview_all # 嵌入首选项内容(字词)。有4个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项 | preview_all 嵌入全部内容 
+  # style/layout/margin_y : -1 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
 
 
   #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
@@ -62,6 +62,3 @@ patch:
 
   # 让【 】可以直接上屏（对应的重复上屏的功能也没了）
   #speller/alphabet: ";'zyxwvutsrqponmlkjihgfedcba"
-  schema/+:
-    icon: 中.ico
-    ascii_icon: 英.ico

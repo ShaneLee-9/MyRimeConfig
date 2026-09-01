@@ -2,7 +2,7 @@
 皮肤文字: &皮肤文字 0xc9cdd4
 皮肤选中背景: &皮肤选中背景 0xebb10d
 皮肤选中文字: &皮肤选中文字 0x131824
-字体: &字体 "方正悠黑_GBK 508R, 霞鹜新致宋 屏幕阅读版 补全, TW-Kai, 汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, MiSansL3, 新雅黑"
+字体: &字体 "Twitter Color Emoji, 字酷堂竹堂楷 简繁, TumanPUA, 汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, 新雅黑"
 
 patch:
   preset_color_schemes:
@@ -10,25 +10,43 @@ patch:
       name: 极简
       author: 九
       color_format: rgba
-      back_color: 0xeceff4
-#      border_color: 0xe1e1e1
-      border_color: 0xc8c9cc66
-      text_color: 0x89a0be
-      comment_text_color: 0x9eb0c8
-      label_color: 0x9eb0c8
-      hilited_candidate_text_color: 0x6780a8
-      hilited_candidate_back_color: 0xd9dee8
-      hilited_comment_text_color: 0xa6b1c3
-      hilited_label_color: 0x6780a8
-      shadow_color: 0x0000001a
+      back_color: 0xffffff
+      border_color: 0xDCDCDC
+      text_color: 0x333333
+      comment_text_color: 0x333333
+      label_color: 0xCCCCCC
+      hilited_candidate_text_color: 0x333333
+      hilited_candidate_back_color: 0xffffff
+      hilited_comment_text_color: 0x333333
+      hilited_label_color: 0xCCCCCC
+      shadow_color: 0x00000014
+    ayaya_night:
+      name: "文文·夜／Ayaya Night"
+      author: "ksqsf <i@ksqsf.moe>"
+      back_color: 0x1E1E1E
+      border_color: 0xFF303030
+      candidate_text_color: 0xAAA6F0
+      comment_text_color: 0xAAA6F0
+      hilited_back_color: 0xAAA6F0
+      hilited_candidate_back_color: 0xA996F1
+      hilited_candidate_text_color: 0x1E1E1E
+      hilited_comment_text_color: 0x1E1E1E
+      hilited_label_color: 0x1E1E1E
+      hilited_mark_color: 0xF9F9F9
+      hilited_text_color: 0xFFFFFF
+      label_color: 0xAAA6F0
+      text_color: 0xFFFFFF
+
 
   style:
     color_scheme: moreless
     horizontal: true
     inline_preedit: true
     font_face: *字体
-    font_point: 20
-    label_font_point: 14
+    font_point: 30
+    label_font_point: 20
+    # font_point: 40
+    # label_font_point: 14
     layout:
       # 下面两个参数用于调整emoji对齐问题
       baseline: 100
@@ -38,16 +56,17 @@ patch:
       max_height: 0
       min_width: 0
       min_height: 0
-      corner_radius: 8
-      margin_x: 16
-      margin_y: 8
-      border_width: 2
+      corner_radius: 10
+      #margin_x: 12
+      #margin_y: 4
+      candidate_spacing: 0
+      border_width: 1
       hilite_padding_x: 12
       hilite_padding_y: 4
       hilited_corner_radius: 8
-      shadow_radius: 8
-      shadow_offset_x: 4
-      shadow_offset_y: 4
+      shadow_radius: 12
+      shadow_offset_x: 2
+      shadow_offset_y: 2
       align_type: center
 
   app_options/+:
