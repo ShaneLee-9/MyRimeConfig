@@ -62,3 +62,6 @@ patch:
 
   # 让【 】可以直接上屏（对应的重复上屏的功能也没了）
   #speller/alphabet: ";'zyxwvutsrqponmlkjihgfedcba"
+  schema/+:
+    icon: 中.ico
+    ascii_icon: 英.ico
