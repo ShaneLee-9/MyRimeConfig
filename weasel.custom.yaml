@@ -2,7 +2,7 @@
 皮肤文字: &皮肤文字 0xc9cdd4
 皮肤选中背景: &皮肤选中背景 0xebb10d
 皮肤选中文字: &皮肤选中文字 0x131824
-字体: &字体 "Twitter Color Emoji, 字酷堂竹堂楷 简繁, TumanPUA, 汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, 新雅黑"
+字体: &字体 "Twitter Color Emoji, HarmonyOS Sans SC Black, TumanPUA, 汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, 新雅黑"
 
 patch:
   preset_color_schemes:
@@ -10,16 +10,16 @@ patch:
       name: 极简
       author: 九
       color_format: rgba
-      back_color: 0xffffff
-      border_color: 0xDCDCDC
-      text_color: 0x333333
+      back_color: 0x1e232bf2
+      border_color: 0x2a303a
+      text_color: 0xffffff
       comment_text_color: 0x333333
-      label_color: 0xCCCCCC
-      hilited_candidate_text_color: 0x333333
-      hilited_candidate_back_color: 0xffffff
-      hilited_comment_text_color: 0x333333
-      hilited_label_color: 0xCCCCCC
-      shadow_color: 0x00000014
+      label_color: 0x4da3ff
+      hilited_candidate_text_color: 0xffffff
+      hilited_candidate_back_color: 0x2d7dff
+      hilited_comment_text_color: 0xffffff
+      hilited_label_color: 0xffffff
+      shadow_color: 0x00000033
     ayaya_night:
       name: "文文·夜／Ayaya Night"
       author: "ksqsf <i@ksqsf.moe>"
@@ -40,11 +40,11 @@ patch:
 
   style:
     color_scheme: moreless
-    horizontal: true
+    # horizontal: true
     inline_preedit: true
-    font_face: *字体
-    font_point: 30
-    label_font_point: 20
+    font_face: 鸿蒙黑体
+    font_point: 20
+    label_font_point: 16
     # font_point: 40
     # label_font_point: 14
     layout:
@@ -56,17 +56,18 @@ patch:
       max_height: 0
       min_width: 0
       min_height: 0
-      corner_radius: 10
-      #margin_x: 12
-      #margin_y: 4
+      corner_radius: 6
+      margin_x: 28
+      margin_y: 14
       candidate_spacing: 0
       border_width: 1
-      hilite_padding_x: 12
-      hilite_padding_y: 4
-      hilited_corner_radius: 8
+      hilite_spacing: 8 # 文字和序号的间距
+      hilite_padding_x: 20
+      hilite_padding_y: 6
+      hilited_corner_radius: 6
       shadow_radius: 12
-      shadow_offset_x: 2
-      shadow_offset_y: 2
+      shadow_offset_x: 4
+      shadow_offset_y: 16
       align_type: center
 
   app_options/+:
