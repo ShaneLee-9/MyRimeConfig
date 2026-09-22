@@ -4,3 +4,5 @@ build
 sync
 user.yaml
 installation.yaml
+models/*
+!**/.gitkeep

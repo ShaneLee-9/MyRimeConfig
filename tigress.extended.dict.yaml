@@ -6,10 +6,11 @@ name: tigress.extended
 version: "2.0"
 sort: by_weight
 import_tables:
-  - tigress
-  - tigress_ci
-  - tigress_simp_ci  # 在-前面加上#号，即可关闭简词
-  - ghost
+  # - tigress
+  # - tigress_ci
+  # - tigress_simp_ci  # 在-前面加上#号，即可关闭简词
+  # - ghost
+  - shane
   
 columns:
   - text
