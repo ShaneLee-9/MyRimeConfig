@@ -10,16 +10,16 @@ patch:
       name: 极简
       author: 九
       color_format: rgba
-      back_color: 0x1e232bf2
-      border_color: 0x2a303a
-      text_color: 0xffffff
-      comment_text_color: 0x333333
-      label_color: 0x4da3ff
+      back_color: 0xfffffff2
+      border_color: 0xe5e7eb
+      text_color: 0x1f233b
+      comment_text_color: 0x94a3b8
+      label_color: 0x3b82f6
       hilited_candidate_text_color: 0xffffff
-      hilited_candidate_back_color: 0x2d7dff
+      hilited_candidate_back_color: 0x3b82f6
       hilited_comment_text_color: 0xffffff
-      hilited_label_color: 0xffffff
-      shadow_color: 0x00000033
+      hilited_label_color: 0x38f0ff
+      shadow_color: 0x00000014
     ayaya_night:
       name: "文文·夜／Ayaya Night"
       author: "ksqsf <i@ksqsf.moe>"
@@ -40,7 +40,7 @@ patch:
 
   style:
     color_scheme: moreless
-    # horizontal: true
+    horizontal: true
     inline_preedit: true
     font_face: *字体
     font_point: 20
@@ -60,7 +60,7 @@ patch:
       margin_x: 28
       margin_y: 14
       candidate_spacing: 0
-      border_width: 1
+      border_width: 2
       hilite_spacing: 8 # 文字和序号的间距
       hilite_padding_x: 20
       hilite_padding_y: 6
