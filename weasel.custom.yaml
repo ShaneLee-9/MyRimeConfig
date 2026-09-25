@@ -2,7 +2,7 @@
 皮肤文字: &皮肤文字 0xc9cdd4
 皮肤选中背景: &皮肤选中背景 0xebb10d
 皮肤选中文字: &皮肤选中文字 0x131824
-字体: &字体 "ShaneEmoji, Twitter Color Emoji, MYuppyGB, TumanPUA, 汉仪跑男体, 霞鹜漫黑, MiSans:Light, MiSans TC, 新雅黑"
+字体: &字体 "ShaneEmoji, Twitter Color Emoji, TumanPUA, 思源宋体:Bold"
 
 patch:
   preset_color_schemes:
@@ -40,17 +40,18 @@ patch:
 
   style:
     color_scheme: moreless
-    horizontal: true
+    # horizontal: true
     inline_preedit: true
     font_face: *字体
-    font_point: 20
+    font_point: 50
     label_font_point: 16
     # font_point: 40
     # label_font_point: 14
     layout:
       # 下面两个参数用于调整emoji对齐问题
-      baseline: 100
-      linespacing: 140
+      # baseline: 100
+      # linespacing: 140
+      align_type: center
 
       max_width: 0
       max_height: 0

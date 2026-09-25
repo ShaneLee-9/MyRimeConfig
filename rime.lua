@@ -7,6 +7,6 @@ calculator_translator = require("calculator_translator")  --简易计算器
 exe_processor = require("exe")  -- 网页启动器
 shijian2_translator = require("shijian2") -- 高级时间
 
-local tiger_sentence = require("tiger_sentence")
-tiger_sentence_processor = tiger_sentence.processor
-tiger_sentence_translator = tiger_sentence.translator
+-- local tiger_sentence = require("tiger_sentence")
+-- tiger_sentence_processor = tiger_sentence.processor
+-- tiger_sentence_translator = tiger_sentence.translator
