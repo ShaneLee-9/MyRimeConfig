@@ -2,7 +2,7 @@
 皮肤文字: &皮肤文字 0xc9cdd4
 皮肤选中背景: &皮肤选中背景 0xebb10d
 皮肤选中文字: &皮肤选中文字 0x131824
-字体: &字体 "ShaneEmoji, Twitter Color Emoji, TumanPUA, 思源宋体:Bold"
+字体: &字体 "源起明體月:semi_bold, ShaneEmoji, Twitter Color Emoji, TumanPUA"
 
 patch:
   preset_color_schemes:
@@ -10,21 +10,21 @@ patch:
       name: 极简
       author: 九
       color_format: rgba
-      back_color: 0xfffffff2
-      border_color: 0xe5e7eb
-      text_color: 0x1f233b
-      comment_text_color: 0x94a3b8
-      label_color: 0x3b82f6
-      hilited_candidate_text_color: 0xffffff
-      hilited_candidate_back_color: 0x3b82f6
-      hilited_comment_text_color: 0xffffff
-      hilited_label_color: 0x38f0ff
+      back_color: 0xF1F1F1FF
+      border_color: 0xB5C18EFF
+      text_color: 0x000000FF
+      comment_text_color: 0x000000FF
+      label_color: 0x000000FF
+      hilited_candidate_text_color: 0x000000FF
+      hilited_candidate_back_color: 0xB5C18EFF
+      hilited_comment_text_color: 0x000000FF
+      hilited_label_color: 0x000000FF
       shadow_color: 0x00000014
     ayaya_night:
       name: "文文·夜／Ayaya Night"
       author: "ksqsf <i@ksqsf.moe>"
       back_color: 0x1E1E1E
-      border_color: 0xFF303030
+      border_color: 0xA996F1
       candidate_text_color: 0xAAA6F0
       comment_text_color: 0xAAA6F0
       hilited_back_color: 0xAAA6F0
@@ -43,8 +43,8 @@ patch:
     # horizontal: true
     inline_preedit: true
     font_face: *字体
-    font_point: 50
-    label_font_point: 16
+    font_point: 24
+    label_font_point: 18
     # font_point: 40
     # label_font_point: 14
     layout:
@@ -58,18 +58,17 @@ patch:
       min_width: 0
       min_height: 0
       corner_radius: 6
-      margin_x: 28
-      margin_y: 14
-      candidate_spacing: 0
+      margin_x: 12
+      margin_y: 6
+      candidate_spacing: 4
       border_width: 2
       hilite_spacing: 8 # 文字和序号的间距
-      hilite_padding_x: 20
-      hilite_padding_y: 6
+      hilite_padding_x: 12 # 字体 x 0.5
+      hilite_padding_y: 6 # 字号 x 0.25
       hilited_corner_radius: 6
       shadow_radius: 12
       shadow_offset_x: 4
       shadow_offset_y: 16
-      align_type: center
 
   app_options/+:
     windowsterminal.exe:

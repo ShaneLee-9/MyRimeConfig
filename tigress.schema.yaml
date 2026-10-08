@@ -97,7 +97,7 @@ engine:
     # - lua_filter@dz_ci  #过滤词组lua，单字模式
     # - charset_filter@utf8
     # - charset_filter@gbk
-    # - charset_filter@gb2312
+    - charset_filter@gb2312
     # - charset_filter@big5
     - simplifier@simplification  #简繁滤镜
     # - simplifier@fanjian  #繁简滤镜
